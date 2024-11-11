@@ -39,7 +39,14 @@ body {
     font-family: inherit;
     margin: 0;
   }
-  
+
+  .logo {
+    display: block;
+    margin: 0 auto;
+    padding: 25px 0 25px 0;
+    width: 190px;
+  }
+
   .sidenav a:hover {
     color: #f1f1f1;
   }

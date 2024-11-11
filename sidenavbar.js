@@ -19,9 +19,6 @@ function openNav() {
     var myDropdown = document.getElementById("myDropdown");
 
     if (myDropdown.classList.contains('show')) {
-      document.getElementById("down").style.display = "none";
-      document.getElementById("up").style.display = "inherit";
-
       myDropdown.classList.remove('show');
     }
   }
