@@ -18,7 +18,7 @@ function openNav() {
   
     var myDropdown = document.getElementById("myDropdown");
 
-    if (myDropdown.classList.contains('show')) {
+    if(myDropdown.classList.contains('show')) {
       myDropdown.classList.remove('show');
     }
   }
